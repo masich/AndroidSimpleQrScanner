@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">SimpleQrScanner</string>
-    <string name="search">Search</string>
-    <string name="link">Link : </string>
+    <string name="open_link">open link</string>
+    <string name="link">Link</string>
 </resources>
