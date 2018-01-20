@@ -14,6 +14,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        readQrCode()
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
@@ -34,4 +35,11 @@ class MainActivity : AppCompatActivity() {
     }
 
 
+}
+
+    private fun readQrCode() {
+        val integrator = IntentIntegrator(this)
+        integrator.setOrientationLocked(false)
+        integrator.initiateScan()
+    }
 }
