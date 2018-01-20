@@ -2,4 +2,5 @@
     <string name="app_name">SimpleQrScanner</string>
     <string name="open_link">open link</string>
     <string name="link">Link</string>
+    <string name="activity_not_found">It seems that this is not a link.</string>
 </resources>
